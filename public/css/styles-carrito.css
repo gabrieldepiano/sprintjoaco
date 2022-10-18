@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-image: url( "espacio.jpg");
+    margin: 0;
+    
+    width: 100%;
+   
+}
+body{
+    background-color: blueviolet;
+}
+main{
+    background-color: blueviolet;
+    margin: 0;
+}
+
+h1{
+    width: 100%;
+    font-size: 24px;
+    padding-left: 2%;
+    padding-top: 16px
+}
+
+.total{
+    padding-left: 2%;
+    padding-top: 16px
+}
+
+.descripcion-carrito{
+    padding-left: 2%;
+    padding-top: 16px;
+    padding-bottom: 2%;
+}
+
+
+.articulo-messi{
+    width: 45%;
+    height: 254px;
+    }
+    
+.nombre-precio-producto{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-top: 50px;
+    padding-bottom: 4%;
+    padding-right: 2%;
+    position: relative;
+    top: 97px;
+}
+
+.columna-producto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 48%;
+    padding-right: 2%;
+    justify-content: space-between;
+   position: relative;
+   bottom: 99%;
+}
+
+.cantidad-producto{
+    position: relative;
+    top: 80px;
+}
+
+.cruz{
+    position: relative;
+    bottom: 357px;
+    left: 380px;
+}
+
+.corazon{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    width: 10%;
+    padding-left: 2%;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 150px;
+    left: 363px;
+}
+
+.precio-articulo-1{
+    position: relative;
+    bottom: 114px;
+    left: 212px;
+}
+
+
+.descripcion-producto{
+    margin-top: 30px;
+}
+
+.articulo-de-compra{
+background-color:#A569BD ; 
+width: 1600px;
+height: 254px;
+border: 1px solid #777777;
+    border-radius: 2px;
+}
+
+
+.resumen-pedido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 56%;
+   margin-right: 5%;
+background-color:#A569BD ; 
+
+   margin-left: 57%;
+   margin-right: 2%;
+   border: 1px solid #777777;
+    border-radius: 2px;
+    height: 28%;
+}
+
+.resumen-del-pedido{
+    position: relative;
+    right: 30px;
+    text-align: center;
+}
+
+.producto-precio{
+    position: relative;
+    right: 55px;
+}
+
+.envio-precio{
+    position: relative;
+    right: 38px;
+}
+
+.total-precio{
+    position: relative;
+    right: 54px;
+}
+
+
+.resumen-pedido-precios{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    
+}
+
+
+
+
+.cod-promocional{
+    margin-left: 20px;
+    margin-bottom: 40px;
+color: rgb(97, 1, 89);
+background-color: #00B4CC;
+border: 1px solid #777777;
+    border-radius: 2px;
+    padding: 1% 1%;
+    position: relative;
+    top: -12px;
+}
+
+.signo-mas{
+    position: relative;
+    left: 219px;
+    bottom: 82px;
+}
+
+.checkout{
+    position: relative;
+    color: rgb(8, 8, 8);
+border: 3px solid ;
+background-color: #00B4CC;
+    border: 2px solid #777777;
+    border-radius: 3px;
+    margin-top: 50px;
+    right: 98px;
+    width: 182%;
+    height: 33%;
+}
+
+.flecha-resumen{
+    position: relative;
+    right: 9px;
+    bottom: 18px;
+}
+
+.articulos-recomendaciones{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 800px;
+}
+
+.articulo-cristiano{
+    position: relative;
+    height: 10%;
+    padding-bottom: 2%;
+    left: 40px;
+}
+
+.articulo-monkey{
+    display: flex;
+    height: 10%;
+    padding-bottom: 2%;
+    z-index: 0;
+    position: relative;
+    left: 250px;
+    bottom: 200px;
+}
+
+.opciones-de-pago{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 1500px;
+    left: 30px;
+}
+
+.recomendaciones-columna{
+    display: flex;
+    flex-direction: column;
+}
+
+.pagos{
+    width: 5%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0%;
+}
+*article{
+    margin: 0%;
+}
+.flecha-izquierda{
+    position: relative;
+   top: 85px;
+   left: 20px;
+}
+
+.descripcion-monkey{
+    position: relative;
+    left: 340px;
+    bottom: 205px;
+}
+
+.descripcion-cristiano{
+    position: relative;
+    left: 81px;
+    bottom: 6px;
+}
+
+.recomendaciones{
+    position: relative;
+    left: 15px;
+}
+
+.flecha-derecha{
+    position: relative;
+    left: 530px;
+    bottom: 331px;
+}
+
+.tarjeta-visa{
+    position: relative;
+    bottom: 1489px;
+    left: 20px;
+    
+}
+
+.tarjeta-visa img{
+    border-radius: 8px;
+}
+
+.tarjeta-master{
+    position: relative;
+    bottom: 1574px;
+    left: 121px;
+}
+
+.tarjeta-master img{
+    border-radius: 8px;
+    
+}
+
+.tarjeta-american{
+    position: relative;
+    bottom: 1660px;
+    left: 219px;
+}
+
+.tarjeta-american img{
+    border-radius: 8px;
+}
+
+.titulo-redes{
+    position: relative;
+    left: 75%;
+    top: 80px ;
+}
+
+.facebook img{
+    position: relative;
+    left: 87%;
+    top: 130px;
+    width: 4%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.instagram img{
+    position: relative;
+    left: 80%;
+    top: 77px;
+    width: 4%;
+    height: 50px;
+    border-radius: 5px;
+}
